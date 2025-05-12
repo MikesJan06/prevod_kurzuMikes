@@ -1,8 +1,19 @@
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export const Prevod = () => {
     const [cislo, setCislo] = useState(0);
+    const [Kurzy, setKurzy] = useState([]);
+
+
+    const getKurzy = async () => {
+
+    };
+
+
+    useEffect(() => {
+
+    }, []);
 
     return(
         <div>
