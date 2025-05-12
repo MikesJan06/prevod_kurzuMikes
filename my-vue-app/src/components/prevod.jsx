@@ -26,7 +26,10 @@ export const Prevod = () => {
            onChange={(e) => setCislo(e.target.value)} 
            style={{ padding: '5px'}}
            />
-            
+        
+        
+
+
             <select></select>
             <button>Převeď</button>
             </div>
