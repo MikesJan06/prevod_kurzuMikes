@@ -1,10 +1,11 @@
-import {StrckMode} from 'react'
-import{createroot} from 'react-dom/client'
-import './index.css'
-import App from './pp.jsx'
+import { StrictMode } from 'react'; // Opravený import
+import { createRoot } from 'react-dom/client';  // Opravený import
+import './index.css';
+import App from './app.jsx';  // Ujisti se, že název souboru je správný
 
-createroot(document.getElementById('root')).render(
-<StrickMode>
-    <App/>
-    </StrickMode>
-)
+// Vytvoření kořenu pro React aplikaci
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
